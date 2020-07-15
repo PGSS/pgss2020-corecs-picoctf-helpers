@@ -1,0 +1,10 @@
+0000051d <add>:
+ 51d: 55             push %ebp
+ 51e: 89 e5          mov  %esp,%ebp
+ 520: e8 76 00 00 00 call 59b <__x86.get_pc_thunk.ax>
+ 525: 05 b3 1a 00 00 add  $0x1ab3,%eax
+ 52a: 8b 55 08       mov  0x8(%ebp),%edx
+ 52d: 8b 45 0c       mov  0xc(%ebp),%eax
+ 530: 01 d0          add  %edx,%eax
+ 532: 5d             pop  %ebp
+ 533: c3             ret  

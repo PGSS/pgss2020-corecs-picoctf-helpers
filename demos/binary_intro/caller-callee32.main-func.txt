@@ -1,0 +1,23 @@
+00000534 <main>:
+    [...]
+ 551: [...] movl   $0x3,-0x14(%ebp)
+ 558: [...] movl   $0x4,-0x10(%ebp)
+ 55f: [...] movl   $0xffffffff,-0xc(%ebp)
+ 566: [...] pushl  -0x10(%ebp)
+ 569: [...] pushl  -0x14(%ebp)
+ 56c: [...] call   51d <add>
+ 571: [...] add    $0x8,%esp
+ 574: [...] mov    %eax,-0xc(%ebp)
+ 577: [...] sub    $0x8,%esp
+ 57a: [...] pushl  -0xc(%ebp)
+ 57d: [...] lea    -0x19b8(%ebx),%eax
+ 583: [...] push   %eax
+ 584: [...] call   3b0 <printf@plt>
+ 589: [...] add    $0x10,%esp
+ 58c: [...] mov    $0x0,%eax
+ 591: [...] lea    -0x8(%ebp),%esp
+ 594: [...] pop    %ecx
+ 595: [...] pop    %ebx
+ 596: [...] pop    %ebp
+ 597: [...] lea    -0x4(%ecx),%esp
+ 59a: [...] ret    
